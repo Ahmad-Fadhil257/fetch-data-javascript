@@ -1,2 +1,3 @@
 # fetch-data-javascript
-FETCH DATA JAVASCRIPT
+
+Disini berisi program fetch data dari api
