@@ -1,5 +1,5 @@
-const sumber = "https://pokeapi.co/api/v2/pokemon/pikachu"
+const sumber = "pikachu.json"
 
 fetch(sumber)
   .then ((data) => data.json())
-  .then((result) => console.log(result))
+  .then((result) => console.log(result ?? "Ga ada datanya bro"))
